@@ -38,10 +38,15 @@ cdk synth
 cdk boostrap
 ```
 
-CDKアプリケーションをデプロイする．
+CDK アプリケーションをデプロイする．
 
 ```sh
 cdk deploy
+```
+
+CDK スタックを削除する．
+```sh
+cdk destroy
 ```
 
 ### 参考
